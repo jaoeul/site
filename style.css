@@ -290,6 +290,11 @@ button {
   border-left: 1px solid rgba(255,255,255,0.15);
 }
 
+.nav-menu li {
+  min-width: 7.5em;
+  text-align: center;
+}
+
 .nav-menu a {
   font-family: var(--font-sans);
   font-size: 0.8rem;
@@ -300,6 +305,7 @@ button {
   color: #e0d8cc;
   text-shadow: 0 1px 3px rgba(0,0,0,0.5);
   transition: color var(--ease);
+  display: inline-block;
 }
 
 .nav-menu a::after {
